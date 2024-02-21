@@ -39,7 +39,7 @@ if (isset($_SESSION['email'])) {
                                         <input type="email" class="form-control"  placeholder="Email" autofocus="on" name="e-mail" required = "true">
                                     </div>
                                     <div class="form-group">
-                                        <input type="password" class="form-control" placeholder="Password" name="password" required = "true">
+                                        <input type="password" class="form-control" placeholder="Senha" name="password" required = "true">
                                     </div>
                                     
                                     <button type="submit" name="submit" class="btn btn-primary">Login</button><br><br>
