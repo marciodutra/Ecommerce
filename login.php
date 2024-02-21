@@ -15,8 +15,8 @@ if (isset($_SESSION['email'])) {
 
         <link href="bootstrap.min.css" rel="stylesheet">
         <link href="style.css" rel="stylesheet">
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <script src="jquery.js"></script>
+        <script src="bootstrap.min.js"></script>
     </head>
 
     <body>
@@ -24,7 +24,7 @@ if (isset($_SESSION['email'])) {
         <div id="content">
             <div class="container-fluid decor_bg" id="login-panel">
                 <div class="col-lg-4 col-md-6">
-                    <img src="img/yess.jpg">
+                    <img src="yess.jpg">
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-lg-offset-3 col-md-4">
@@ -33,7 +33,7 @@ if (isset($_SESSION['email'])) {
                                 <h4>LOGIN</h4>
                             </div>
                             <div class="panel-body">
-                                <p class="text-warning"><i>Login to make a purchase</i><p>
+                                <p class="text-warning"><i>Faça login para fazer uma compra</i><p>
                                 <form action="login_submit.php" method="POST">
                                     <div class="form-group">
                                         <input type="email" class="form-control"  placeholder="Email" autofocus="on" name="e-mail" required = "true">
@@ -46,7 +46,7 @@ if (isset($_SESSION['email'])) {
                                     <?php if(isset($_GET['error'])) echo $_GET['error']; ?>
                                 </form><br/>
                             </div>
-                            <div class="panel-footer"><p>Don't have an account? <a href="signup.php">Register</a></p></div>
+                            <div class="panel-footer"><p>Não tem uma conta? <a href="signup.php">Registrar</a></p></div>
                         </div>
                     </div>
                 </div>
